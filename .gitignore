@@ -169,3 +169,8 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Project Specific
+*.db
+output/*.json
+.DS_Store
