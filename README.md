@@ -126,10 +126,6 @@ Example `output/recommendations.json`:
             "name": "health",
             "avg_price": 0.0011304544
             },
-            {
-            "name": "doctor",
-            "avg_price": 0.0011304544
-            },
             ...
         ]
     }

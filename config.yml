@@ -1,0 +1,23 @@
+project_name: hippo_demo
+streams:
+  - name: pharmacies
+    path: data/pharmacies
+    primary_key: npi
+    format: csv
+  - name: reverts
+    path: data/reverts
+    primary_key: id
+    format: json
+  - name: claims
+    path: data/claims
+    primary_key: id
+    format: json
+duckdb:
+  path: data/warehouse.db
+models:
+  - name: metrics
+    query: sql/metrics.sql
+  - name: recommendations
+    query: sql/recommendations.sql
+  - name: most_prescribed
+    query: sql/most_prescribed.sql
