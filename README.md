@@ -17,7 +17,7 @@ A simple ETL (Extract, Transform, Load) pipeline for Hippo that leverages Python
 
 1. Clone the Repository
 
-git clone https://github.com/your-username/hippo-demo.git
+git clone [https://github.com/MiguelOrdnz/hippo-demo.git](https://github.com/MiguelOrdnz/hippo-demo.git)
 cd hippo-demo
 
 2. Set Up the Development Environment
